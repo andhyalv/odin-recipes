@@ -1,26 +1,36 @@
-.titles {
-    color: white;
+
+#bg {
+    background-color: black;
     
 }
-#bg {
+.top-menu {
     background-color: grey;
+    display: flex;
+    
 }
-.top{
-    background-color: red;
+.logo {
+    width: 75px;
+    height: 75px;
+    display: block;
+    
 }
-#main {
+.titles {
+    color: white;
+    display: flex;
+    
+}
+
+.titles#main {
     font-weight: 700;
     text-decoration: underline;
-    text-align: center;
+    font-size: 45px;
+    text-align: right;
+    
 }
 
 .list  {
     color: red;
 }
 
-#logo {
-    width: 100px;
-    height: 100px;
-    align-self: f;
-}
+
 
