@@ -9,27 +9,36 @@
     
 }
 .logo {
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 40px;
     display: block;
-    
+    float: left;
+
 }
 .titles {
     color: white;
-    display: flex;
+    display: inline-block
     
 }
 
 .titles#main {
-    font-weight: 700;
-    text-decoration: underline;
-    font-size: 45px;
-    text-align: right;
+    font-weight: 300;
+    
+    font-size: 30px;
+    float: right;
+    padding-left: 15px;    
+}
+div.bottom-menu{
+    position: absolute;
+    bottom: 0;
+    right: 80px;
     
 }
+div.list  {
+    display:inline-block;
+    align-items: center;
 
-.list  {
-    color: red;
+    
 }
 
 
