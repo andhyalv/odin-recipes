@@ -1,0 +1,26 @@
+.titles {
+    color: white;
+    
+}
+#bg {
+    background-color: grey;
+}
+.top{
+    background-color: red;
+}
+#main {
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.list  {
+    color: red;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    align-self: f;
+}
+
