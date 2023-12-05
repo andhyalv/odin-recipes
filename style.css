@@ -7,36 +7,42 @@ body{
 }
 /*Top bar, with clickable logo, name of organization and other features on the right.*/
 .top-menu {
+    height: 60px;
+    width: auto;
     background-color: grey;
     display: inline-block;
     border: 1px solid lightblue;
+    padding: 2px;
     }
 
 /*Code for every title, large or small.*/
 div.titles {
     color: white;    
+    height: 60px;
 }
 
 /*Metro Ink logo on the top bar.*/
 .logo {
     width: 60px;
-    height: 40px;
+    height: 60px;
     display: inline-block;
-    border-right: 2px solid white;
     float: left;
 }
 /*Change the positioning and spacing of the main title*/
 div.titles#main {
+    
     font-weight: 300;
     font-size: 30px;
     display: inline-block;
     
+    padding: 10px 0px 0px 10px;
 }
+/*Clickable dropdown menu on the top right. */
 .top-menu .right{
+    height: 60px;
     display: inline-block;
     float: right;
-    border-left: 2px solid #edf0fc;
-    padding: 0px 10px 0px 20px;
+    padding: 10px 10px 0px 10px;
     
 }
 
@@ -52,9 +58,9 @@ footer {
 
 }
 .list  {
-    /*display: inline-flex;*/
-    justify-content: space-between;
-    margin-right:
+    display: block;
+    margin: 5px;
+    padding-left: 300px;
 }
 
 
