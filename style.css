@@ -1,44 +1,60 @@
-
-#bg {
+/*Background color. */
+body{
     background-color: black;
-    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+/*Top bar, with clickable logo, name of organization and other features on the right.*/
 .top-menu {
     background-color: grey;
-    display: flex;
-    
+    display: inline-block;
+    border: 1px solid lightblue;
+    }
+
+/*Code for every title, large or small.*/
+div.titles {
+    color: white;    
 }
+
+/*Metro Ink logo on the top bar.*/
 .logo {
     width: 60px;
     height: 40px;
-    display: block;
+    display: inline-block;
+    border-right: 2px solid white;
     float: left;
-
 }
-.titles {
-    color: white;
-    display: inline-block
-    
-}
-
-.titles#main {
+/*Change the positioning and spacing of the main title*/
+div.titles#main {
     font-weight: 300;
-    
     font-size: 30px;
+    display: inline-block;
+    
+}
+.top-menu .right{
+    display: inline-block;
     float: right;
-    padding-left: 15px;    
-}
-div.bottom-menu{
-    position: absolute;
-    bottom: 0;
-    right: 80px;
+    border-left: 2px solid #edf0fc;
+    padding: 0px 10px 0px 20px;
     
 }
-div.list  {
-    display:inline-block;
-    align-items: center;
 
-    
+
+/*The bottom portion of the page, which should be separate from the rest.
+I want to add different color for this portion. */
+
+footer {
+    background-color: grey;
+    margin-top: auto;
+    width: auto;
+    height: auto;
+
+}
+.list  {
+    /*display: inline-flex;*/
+    justify-content: space-between;
+    margin-right:
 }
 
 
