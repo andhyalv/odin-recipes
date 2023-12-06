@@ -57,17 +57,25 @@ footer {
     height: auto;
 
 }
-.list  {
+.whole {
     display: inline-block;
-    margin: 5px;
-    padding-left: 300px;
 }
-
 .buttons .socials{
     width: 30px;
     height: 30px;
-    display: inline-block;
+    display: block;
+}
+.links {
+    display:inline-block;
+}
+.list  {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin: 5px;
     
 }
+
+
 
 
